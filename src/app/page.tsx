@@ -1,6 +1,7 @@
 import SequenceScroll from "@/components/SequenceScroll";
 import PreservationSection from "@/components/PreservationSection";
 import ExplorePreviewSection from "@/components/ExplorePreviewSection";
+import MapPreviewSection from "@/components/MapPreviewSection";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       
       <PreservationSection />
       <ExplorePreviewSection />
+      <MapPreviewSection />
     </main>
   );
 }
